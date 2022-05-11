@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetNow | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="INDEX.html"><img src="Image/getnow logo.png" alt="logo" class="logo" width="150px"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="INDEX.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="account.html">Account</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <form class="search-box">
+                    <input type="text" placeholder="Search">
+
+                </form>
+                <button class="normal">Search</button>
+
+
+                <li id="lg-bag"><a href="cart.html" <i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                <!-- <li id="lg-bag"><a href="cart.html"><img src="Image/cart.png" width="20px" height="20px">
+                        <i class="fa-regular fa-bag-shopping"></i></a></li> -->
+                <a href="" id="close"><i class="fa fa-times" aria-hidden="true"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <i id="search-box" class="fa fa-search" aria-hidden="true"></i>
+            <span>
+                <form class="search-box" onclick="search_bx()">
+                    <input  id="opensrc" type="text" placeholder="Search">
+                </form>
+            </span>
+
+            <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true" width="20px" height="20px"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="hero">
+
+
+        <h4>Live-in-Trend</h4>
+        <h2>Super value deal</h2>
+        <h1>On all products</h1>
+        <p>Save more with coupons & get up to 70% off </p>
+        <button onclick="window.location.href='shop1.html';">Shop Now</button>
+
+    </section>
+
+    <!-- <section id="features">
+        <div class="col">
+            <h6>Free Shipping</h6>
+        </div>
+
+    </section> -->
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p> New Summer collections</p>
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='sproduct.html';">
+                <img src="Image/2 col tshirt img.webp">
+                <div class="dis">
+                    <span>Classy t-shirt</span>
+                    <h5>100% Cotton</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <h4>Rs399.00</h4>
+                </div>
+                <!-- <a href="0"><i class="fa-light fa-cart-shopping"></i></a> -->
+                <a href="cart.html" <i class="fa fa-shopping-cart cart" aria-hidden="true"></i></a>
+                <!-- <a href="0"><i class="fa fa-shopping-cart"></i></a> -->
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct-1.html';">
+                <img src="Image/tshirt 3.webp">
+                <div class="dis">
+                    <span>Regular fit t-shirt</span>
+                    <h5>Regular fit</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <h4>Rs459.00</h4>
+                </div>
+                <!-- <a href="0"><i class="fa-light fa-cart-shopping"></i></a> -->
+                <a href="0"><i class="fal- fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct-2.html';">
+                <img src="Image/tshirt 6.webp">
+                <div class="dis">
+                    <span> Printed t-shirt</span>
+                    <h5>100% Cotton</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <h4>Rs299.00</h4>
+                </div>
+                <!-- <a href="0"><i class="fa-light fa-cart-shopping"></i></a> -->
+                <a href="0"><i class="fal- fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct-3.html';">
+                <img src="Image/t shirt img.webp">
+                <div class="dis">
+                    <span>Sport t-shirt</span>
+                    <h5>100% Cotton</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <h4>Rs349.00</h4>
+                </div>
+                <!-- <a href="0"><i class="fa-light fa-cart-shopping"></i></a> -->
+                <a href="0"><i class="fal- fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct-4.html';">
+                <img src="Image/mens wear img.webp">
+                <div class="dis">
+                    <span>Polo t-shirt</span>
+                    <h5>100% Cotton</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <h4>Rs459.00</h4>
+                </div>
+                <!-- <a href="0"><i class="fa-light fa-cart-shopping"></i></a> -->
+                <a href="0"><i class="fal- fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct-5.html';">
+                <img src="Image/tshirt 10.jpg">
+                <div class="dis">
+                    <span>Solid Men t-shirt</span>
+                    <h5>Polo plus</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <h4>Rs459.00</h4>
+                </div>
+                <!-- <a href="0"><i class="fa-light fa-cart-shopping"></i></a> -->
+                <a href="0"><i class="fal- fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct-6.html';">
+                <img src="Image/tshirt 11.jpg">
+                <div class="dis">
+                    <span>Solid Men t-shirt</span>
+                    <h5>Polo plus</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <h4>Rs459.00</h4>
+                </div>
+                <!-- <a href="0"><i class="fa-light fa-cart-shopping"></i></a> -->
+                <a href="0"><i class="fal- fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct-7.html';">
+                <img src="Image/shoes 6.jpeg">
+                <div class="dis">
+                    <span>Hotstyle Running Shoes</span>
+                    <h5>Good Quality</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <h4>Rs449.00</h4>
+                </div>
+                <!-- <a href="0"><i class="fa-light fa-cart-shopping"></i></a> -->
+                <a href="0"><i class="fal- fa-shopping-cart cart"></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h4>DEAL</h4>
+        <h2>Up to <span>70% Off</span>- All T-Shirts & Accessories</h2>
+        <button class="normal">Explore more</button>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>New Arrivals</h2>
+        <p> All New Collections</p>
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='sproduct-8.html';">
+                <img src="Image/shoes 1.webp">
+                <div class="dis">
+                    <span>Nike Shoes</span>
+                    <h5>Nike sports shoes white</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <h4>Rs599.00</h4>
+                </div>
+                <!-- <a href="0"><i class="fa-light fa-cart-shopping"></i></a> -->
+                <a href="0"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct-9.html';">
+                <img src="Image/shoes img.webp">
+                <div class="dis">
+                    <span>Lofer</span>
+                    <h5>Lofer shoes black and red</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <h4>Rs549.00</h4>
+                </div>
+                <!-- <a href="0"><i class="fa-light fa-cart-shopping"></i></a> -->
+                <a href="0"><i class="fal- fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct-10.html';">
+                <img src="Image/shaded jeans img.webp">
+                <div class="dis">
+                    <span>METRONAUT</span>
+                    <h5>Slim Men Dark Demin jeans</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <h4>Rs659.00</h4>
+                </div>
+                <!-- <a href="0"><i class="fa-light fa-cart-shopping"></i></a> -->
+                <a href="0"><i class="fal- fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct-11.html';">
+                <img src="Image/shoes 2.webp">
+                <div class="dis">
+                    <span>Arivo</span>
+                    <h5>Running shoes for Men (Black)</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <h4>Rs639.00</h4>
+                </div>
+                <!-- <a href="0"><i class="fa-light fa-cart-shopping"></i></a> -->
+                <a href="0"><i class="fal- fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct-12.html';">
+                <img src="Image/shoes 5.webp">
+                <div class="dis">
+                    <span>Bata</span>
+                    <h5>Casual leather black shoes</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <h4>Rs 1099.00</h4>
+                </div>
+                <!-- <a href="0"><i class="fa-light fa-cart-shopping"></i></a> -->
+                <a href="0"><i class="fal- fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct-13.html';">
+                <img src="Image/shoes 3.webp">
+                <div class="dis">
+                    <span>Broton</span>
+                    <h5>Slim fit shocks shoes Black</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <h4>Rs549.00</h4>
+                </div>
+                <!-- <a href="0"><i class="fa-light fa-cart-shopping"></i></a> -->
+                <a href="0"><i class="fal- fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct-14.html';">
+                <img src="Image/tshirt 9.webp">
+                <div class="dis">
+                    <span>Blive</span>
+                    <h5>Printed Men Round Neck tshirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <h4>Rs299.00</h4>
+                </div>
+                <!-- <a href="0"><i class="fa-light fa-cart-shopping"></i></a> -->
+                <a href="0"><i class="fal- fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" onclick="window.location.href='sproduct-15.html';">
+                <img src="Image/shoes 6.webp">
+                <div class="dis">
+                    <span>Bata</span>
+                    <h5>Leather Brown shoes</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <h4>Rs1599.00</h4>
+                </div>
+                <!-- <a href="0"><i class="fa-light fa-cart-shopping"></i></a> -->
+                <a href="0"><i class="fal- fa-shopping-cart cart"></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>Crazy deals</h4>
+            <h2>buy 1 get 1 free</h2>
+            <span> The best classic dress is on sale at cara</span>
+            <button class="white" onclick="window.location.href='Crazy deals.html';">learn More</button>
+        </div>
+
+        <div class="banner-box banner-box2">
+            <h4>Spring/summer</h4>
+            <h2>Upcomimg season</h2>
+            <span>The best classic dress is on sale at cara</span>
+            <button class="white"> Collection</button>
+        </div>
+
+    </section>
+
+    <section id="banner3">
+        <div class="banner-box">
+            <h2>Accessories</h2>
+            <h3>Discount upto 50% Off</h3>
+            <button class="white" onclick="window.location.href='accessories.html';">Click here</button>
+        </div>
+
+        <div class="banner-box banner-box2">
+            <h2>MEN'S WEARS</h2>
+            <h3>Discount upto 50% Off</h3>
+            <button class="white">Click here</button>
+        </div>
+
+        <div class="banner-box banner-box3 ">
+            <h2>Winter Collection</h2>
+            <h3>All New and Stylish Products </h3>
+            <button class="white">Click here</button>
+        </div>
+
+    </section>
+
+    <section id="newletter" class="section-p1 section-m1">
+        <div class="mewtext">
+            <h4>Sign Up for newletter</h4>
+            <p>Get Email updates about our latest shop and <span>Special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your Email address">
+            <button class="normal">Sign UP</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="Image/getnow logo.png" width="150px">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> 36/12 Kirari, Nangloi New Delhi 110086 </p>
+            <p><strong>PH no.: </strong> 9500001255 / 0169523962 </p>
+            <p><strong>Hours: </strong> 10:00 AM - 06:00 PM Mon-Sat </p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="0">About us</a>
+            <a href="0">Delivery Information</a>
+            <a href="0">Privacy Policy</a>
+            <a href="0">Terms & Conditions</a>
+            <a href="0">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="0">Sign in</a>
+            <a href="0">View cart</a>
+            <a href="0">My Wishlist</a>
+            <a href="0">Track My Order</a>
+            <a href="0">Help</a>
+        </div>
+
+        <div class="col intsall">
+            <h4>Intsall App</h4>
+            <p>From App Store and Google Play</p>
+            <div class="row">
+                <img src="Image/app store img.png" width="140px">
+                <img src="Image/google play img.png" width="140px">
+            </div>
+
+            <p> Secured Payment Gatways</p>
+            <img src="Image/pay img.webp" width="250px">
+        </div>
+
+        <div class=" copyright">
+            <p> 0 2022,Tech2 etc - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+
+
+    <script src="Script.js"></script>
+
+</body>
+
+</html>
