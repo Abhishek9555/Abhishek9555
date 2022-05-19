@@ -87,7 +87,7 @@ button.white {
 }
 .loginbox{
     width: 350px;
-    height: 440px;
+    height: 540px;
     background: #000;
     color: #fff;
     margin: 6% auto;
@@ -133,6 +133,11 @@ button.white {
     width: 100%;
     margin-bottom: 20px;
 }
+#signin{
+    background-color: white;
+    color:green;
+    font-weight: 600;
+}
 
 .loginbox input[type="text"], input[type="password"]
 {
@@ -150,6 +155,7 @@ button.white {
     height: 40px;
     background: #fb2525;
     color: #fff;
+    font-weight: 600;
     font-size: 18px;
     border-radius: 20px;
 }
